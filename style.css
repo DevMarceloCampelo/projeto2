@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Source Sans pro";
+    src: url('fontes/SourceSansPro-Regular.otf');
+}
+
+@font-face {
+    font-family: "Source Sans pro";
+    src: url('fontes/SourceSansPro-Bold.otf');
+    font-weight: bold;
+}
+
+
+
+body{
+    font-family: "Source Sans pro";
+}
