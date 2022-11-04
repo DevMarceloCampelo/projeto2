@@ -20,6 +20,8 @@ body{
     background: white;
     padding: 15px;
 }
+
+/* Logo */
 .logo{
     background-image: url("img/logotipo-preto.png");
     background-repeat: no-repeat;
@@ -30,6 +32,11 @@ body{
     margin: 0px;
 
 }
+.logo--branco{
+    background-image: url("img/logotipo-branco.png");
+}
+
+/* Menu Principal */
 
 .menu-principal__botao{
     display: block;
@@ -57,11 +64,7 @@ body{
 
 .menu-principal__lista{
     padding: 0;
-}
-
-.menu-principal__lista li{
     list-style: none;
-
 }
 
 .menu-principal__item{
@@ -78,3 +81,55 @@ body{
     color: #f44242;
 }
 
+/* Rodapé */
+
+.rodape{
+    color:white;
+}
+
+.rodape .logo{
+    margin-bottom: 20px;
+}
+
+.rodape__linha-1{
+    background-color:#272525;
+    background-image: url("img/rodape-bg.jpg");
+    background-size: cover;
+    padding: 15px;
+
+}
+
+.rodape__linha-2{
+    background-color:black;
+    text-align: center;
+    padding: 15px;
+}
+
+.rodape__coluna{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.rodape__titulo{
+    border-bottom: 1px solid white;
+    padding: 0 10px 10px 10px;
+    font-size: 18px;
+}
+
+.rodape__lista-links{
+    padding: 0;
+    list-style: none;
+}
+
+.rodape__lista-links-itens{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.rodape__lista-links-itens::before{
+    content: '>';
+    margin-right: 8px;
+    color: #f44242;
+}
