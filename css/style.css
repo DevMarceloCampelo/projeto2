@@ -23,7 +23,7 @@ body{
 
 /* Logo */
 .logo{
-    background-image: url("img/logotipo-preto.png");
+    background-image: url("../img/logotipo-preto.png");
     background-repeat: no-repeat;
     display: block;
     width: 120px;
@@ -33,7 +33,7 @@ body{
 
 }
 .logo--branco{
-    background-image: url("img/logotipo-branco.png");
+    background-image: url("../img/logotipo-branco.png");
 }
 
 /* Menu Principal */
@@ -44,7 +44,7 @@ body{
     height: 50px;
     text-indent: -9999px;
     background-color: white;
-    background-image: url('img/menuprincipal-btn-bg.png');
+    background-image: url("../img/menuprincipal-btn-bg.png");
     background-repeat: no-repeat;
     background-position: 5px 5px;
     border-color: #c4c4c4;
@@ -93,7 +93,7 @@ body{
 
 .rodape__linha-1{
     background-color:#272525;
-    background-image: url("img/rodape-bg.jpg");
+    background-image: url("../img/rodape-bg.jpg");
     background-size: cover;
     padding: 15px;
 
