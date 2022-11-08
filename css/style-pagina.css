@@ -22,6 +22,21 @@
     background-color: white;
     margin: 0 auto;
     margin-top: 20px;/* coloquei essa margem embaixo, pois se coloca-se acima do "marmargin: 0 auto;" não iria funcionar */
+}
 
+.pagina-conteudo{
+    padding: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 
+.pagina-conteudo p{
+    color: #3a3a3a;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-center{
+    text-align: center;
 }
