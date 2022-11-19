@@ -416,8 +416,21 @@ body {
   font-family: "Source Sans pro"; }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 576px) {
+    .container {
+      width: 540px; } }
+  @media (min-width: 768px) {
+    .container {
+      width: 720px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 960px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1140px; } }
 
 .cabecalho {
   background: white;
@@ -614,7 +627,7 @@ body {
   background-color: white;
   margin: 0 auto;
   margin-top: 20px;
-  /* coloquei essa margem embaixo, pois se coloca-se acima do "marmargin: 0 auto;" não iria funcionar */ }
+  /* coloquei essa margem embaixo, pois se coloca-se acima do "mmargin: 0 auto;" não iria funcionar */ }
 
 .pagina-conteudo {
   padding: 15px;
@@ -644,6 +657,9 @@ body {
   color: #fff;
   text-align: center;
   padding: 50px 0; }
+  @media (min-width: 992px) {
+    .cabecalho-home {
+      height: 100vh; } }
 
 .cabecalho-home__titulo {
   font-size: 40px;
