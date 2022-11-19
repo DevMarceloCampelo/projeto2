@@ -415,6 +415,10 @@ img {
 body {
   font-family: "Source Sans pro"; }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
 .cabecalho {
   background: white;
   padding: 15px; }

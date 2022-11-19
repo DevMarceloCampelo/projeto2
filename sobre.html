@@ -13,16 +13,18 @@
 
 <body>
     <header class="cabecalho ">
-        <a href="index.html" class="logo">Design Responsivo</a>
-        <nav class="menu-principal">
-            <button class="menu-principal__botao">Abrir/fechar menu</button>
-            <ul class="menu-principal__lista">
-                <li><a class="menu-principal__item " href="index.html">Home</a></li>
-                <li><a class="menu-principal__item menu-principal__item--atual" href="sobre.html">Sobre nós</a></li>
-                <li><a class="menu-principal__item" href="portfolio.html">Portfolio</a></li>
-                <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <a href="index.html" class="logo">Design Responsivo</a>
+            <nav class="menu-principal">
+                <button class="menu-principal__botao">Abrir/fechar menu</button>
+                <ul class="menu-principal__lista">
+                    <li><a class="menu-principal__item " href="index.html">Home</a></li>
+                    <li><a class="menu-principal__item menu-principal__item--atual" href="sobre.html">Sobre nós</a></li>
+                    <li><a class="menu-principal__item" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="menu-principal__item" href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div><!--Fim da class container-->
     </header>
 
     <main>
@@ -31,7 +33,7 @@
                 <h1 class="pagina-cabecalho__titulo">Sobre Nós</h1>
 
             </header>
-            <section class="pagina-conteudo">
+            <section class="container pagina-conteudo">
                 <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ratione omnis deleniti molestias dolore corrupti sint sit dignissimos numquam fugit!</p>
                 <img src="img/time-unido.jpg" alt="Imagem de mão unidas">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatum aspernatur repudiandae accusantium quo iste alias, consequuntur rerum nisi autem possimus modi. Mollitia ullam nam, ducimus aliquam eaque dicta laboriosam, dolores, cumque adipisci alias iusto?</p>
@@ -45,29 +47,32 @@
     <footer class="rodape">
 
         <div class="rodape__linha-1">
-            <div class="rodape__coluna">
-                <a href="index.html" class="logo logo--branco">Design Responsivo</a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, porro impedit. Aliquid qui animi minima asperiores repudiandae repellendus rerum? Velit ea repudiandae quod numquam. Repudiandae, praesentium. Exercitationem est nam voluptatum.</p>
-            </div>
-            <div class="rodape__coluna">
-                <h2 class="rodape__titulo">Social</h2>
-                <ul class="rodape__lista-links">
-                    <li><a class="rodape__lista-links-itens" href ="https://twitter.com" target="_blank">Twitter</a></li>
-                    <li><a class="rodape__lista-links-itens" href ="https://pt-br.facebook.com" target="_blank">Facebook</a></li>
-                    <li><a class="rodape__lista-links-itens" href ="https://www.instagram.com" target="_blank">Instagram</a></li>
-                    <li><a class="rodape__lista-links-itens" href ="https://www.youtube.com/" target="_blank">Youtube</a></li>
-                    
-                </ul>
-            </div>
-            <div class="rodape__coluna">
-                <h2 class="rodape__titulo">Links</h2>
-                <ul class="rodape__lista-links">
-                    <li><a class="rodape__lista-links-itens" href ="index.html">Home</a></li>
-                    <li><a class="rodape__lista-links-itens" href ="sobre.html">Sobre nós</a></li>
-                    <li><a class="rodape__lista-links-itens" href ="portfolio.html">Portfolio</a></li>
-                    <li><a class="rodape__lista-links-itens" href ="contato.html">Contato</a></li>
-                </ul>
-            </div>
+            <div class="container">
+
+                <div class="rodape__coluna">
+                    <a href="index.html" class="logo logo--branco">Design Responsivo</a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, porro impedit. Aliquid qui animi minima asperiores repudiandae repellendus rerum? Velit ea repudiandae quod numquam. Repudiandae, praesentium. Exercitationem est nam voluptatum.</p>
+                </div>
+                <div class="rodape__coluna">
+                    <h2 class="rodape__titulo">Social</h2>
+                    <ul class="rodape__lista-links">
+                        <li><a class="rodape__lista-links-itens" href ="https://twitter.com" target="_blank">Twitter</a></li>
+                        <li><a class="rodape__lista-links-itens" href ="https://pt-br.facebook.com" target="_blank">Facebook</a></li>
+                        <li><a class="rodape__lista-links-itens" href ="https://www.instagram.com" target="_blank">Instagram</a></li>
+                        <li><a class="rodape__lista-links-itens" href ="https://www.youtube.com/" target="_blank">Youtube</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="rodape__coluna">
+                    <h2 class="rodape__titulo">Links</h2>
+                    <ul class="rodape__lista-links">
+                        <li><a class="rodape__lista-links-itens" href ="index.html">Home</a></li>
+                        <li><a class="rodape__lista-links-itens" href ="sobre.html">Sobre nós</a></li>
+                        <li><a class="rodape__lista-links-itens" href ="portfolio.html">Portfolio</a></li>
+                        <li><a class="rodape__lista-links-itens" href ="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div><!--Fim da class container-->
         </div>
         <div class="rodape__linha-2">
             © Todos os Direitos Reservados - Marcelo Campêlo
